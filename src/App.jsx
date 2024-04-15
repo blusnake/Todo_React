@@ -12,7 +12,6 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        {/* Redirect to home if the route is not found */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
