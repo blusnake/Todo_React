@@ -1,0 +1,11 @@
+.todo-list-header{
+    padding: 0px 0px 30px 0px;
+}
+
+.todo-list-header h1 {
+    color: #2b2c72;
+}
+
+.todo-list-header .status{
+    color: #0077B6;
+}

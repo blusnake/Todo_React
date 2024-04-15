@@ -1,0 +1,29 @@
+.addForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3px;
+    margin-top: .5em;
+}
+
+.addForm input{
+    border: none;
+    border-radius: 5px;
+    border-radius: 3px;
+    padding: .3em 1em;
+    color: #03045e;
+}
+
+.addForm button {
+    color: #0077B6;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: .3em 1em;
+
+}
+.addForm button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: lightskyblue;
+}

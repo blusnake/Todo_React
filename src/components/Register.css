@@ -1,0 +1,48 @@
+h1 {
+    color: #2b2c72;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.register_cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.598);
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.name_inp {
+    margin: 0 0 1em 0;
+    border: none;
+    border-radius: 1em;
+    padding: .5em 2em;
+}
+
+.pswrd_inp {
+    margin: 0 0 1em 0;
+    border: none;
+    border-radius: 1em;
+    padding: .5em 2em;
+}
+
+.register_cont p a {
+    text-decoration: none;
+    color: #2b2c72;
+}
+
+.register_cont button{
+    margin: 1em 0 0 0;
+}
+
+.register_cont p{
+    padding: 1em 0 0 0;
+    color: #0077B6;
+}

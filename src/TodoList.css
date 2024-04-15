@@ -1,0 +1,10 @@
+.todo-text{
+    text-decoration: none;
+}
+.todo-text.done{
+    text-decoration: line-through;
+}
+body{
+    background-color: #7a95a7;
+    font-family: sans-serif;
+}
