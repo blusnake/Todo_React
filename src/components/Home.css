@@ -19,3 +19,49 @@
 .home_page-container p{
     padding: 0.5em 0em 0em 0em ;
 }
+
+.welcoming_page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.598);
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.welcome_p_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.welcoming_page p {
+    text-align: center;
+}
+
+.welcoming_page .p_1 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    letter-spacing: .15em;
+}
+
+.welcoming_page .p_2 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    letter-spacing: .15em;
+}
+
+.welcome_p_cont span{
+    font-size: 18px;
+    color:  darkblue;
+    letter-spacing: .15em;
+}

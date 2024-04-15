@@ -40,11 +40,11 @@ function Home() {
           </p>
         </div>
       ) : (
-        <div>
+        <div className='welcoming_page'>
           <h1>Welcome!</h1>
-          <p>
-            <Link to="/login">Login</Link> or <Link to="/register">Register</Link>
-          </p>
+          <div className="welcome_p_cont">
+            <p className='p_1'><Link to="/login">Login</Link> </p><span>or</span><p className='p_2'><Link to="/register">Register</Link></p>
+          </div>
         </div>
       )}
     </div>
