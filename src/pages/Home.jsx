@@ -2,10 +2,10 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom';
-import SearchPanel from './SearchPanel';
-import TodoList from './TodoList';
-import AddForm from './AddForm';
-import Header from './Header'
+import SearchPanel from '../components/SearchPanel';
+import TodoList from '../components/TodoList';
+import AddForm from '../components/AddForm';
+import Header from '../components/Header'
 
 function Home() {
   const [todos, setTodos] = useState([]);
